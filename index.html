@@ -9,8 +9,26 @@
 </head>
 
 <body>
-    <h1>Ola Mundo</h1>
+    <div id="up">
+        <h1>TaskManager</h1>
+        <div id="container-inputs">
+            <input type="text" id="name" placeholder="nome da nova tarefa" />
+            <input type="text" id="description" placeholder="descrição da tarefa" />
 
+            <select name="language" id="language">
+                <option value="pt">PT</option>
+                <option value="en">EN</option>
+            </select>
+
+            <div id="container-button">
+                <input type="button" value="Adicionar Tarefa" id="btnAddTask" />
+            </div>
+        </div>
+
+        <div id="down">
+            <p>Você não tem tarefas adicionadas</p>
+            <p>Adicione uma nova tarefa para ver aqui</p>
+        </div>
 </body>
 <script src="./js/script.js"></script>
 
