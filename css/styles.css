@@ -9,6 +9,7 @@
 
 body {
     background: linear-gradient(#1DD8AB, #12A4E6) no-repeat top center/cover;
+    height: 100%;
 }
 
 #container {
